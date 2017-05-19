@@ -382,3 +382,13 @@ h4.team-member-designation {
 .testimonial-author p strong {
   display: block;
 }
+
+/*==============================================================================
+                      PRICING
+==============================================================================*/
+
+.pricing-box {
+  border: 3px solid #34c6d3;
+  padding: 50px 0;
+  margin: 40px 0;
+}
