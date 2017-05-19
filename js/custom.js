@@ -2,7 +2,7 @@
                       SERVICES
 ==============================================================================*/
 
-$(function(){
+$(function() {
   //animate on scroll
   new WOW().init();
 });
@@ -11,7 +11,7 @@ $(function(){
                       WORK
 ==============================================================================*/
 
-$(function(){
+$(function() {
   //magnific-popup
   $("#work").magnificPopup({
     delegate: 'a',
@@ -26,11 +26,12 @@ $(function(){
                       TEAM
 ==============================================================================*/
 
-$(function(){
+$(function() {
   $("#team-members").owlCarousel({
     items: 3,
     autoplay: true,
     smartSpeed: 700,
-    loop: true 
+    loop: true,
+    autoplayHoverPause: true
   });
 });
