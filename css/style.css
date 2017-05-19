@@ -156,6 +156,10 @@ h3 {
   margin: 0 auto 30px auto;
 }
 
+.content-title-white h3 {
+  color: #fff;
+}
+
 
 /*==============================================================================
                       SERVICES
@@ -312,4 +316,16 @@ h4.team-member-designation {
 
 .icon-gray i:hover {
   color: #34c6d3;
+}
+
+/*==============================================================================
+                      TESTIMONIALS
+==============================================================================*/
+
+#testimonials-cover {
+  background-image: url("../img/bg-testimonials.jpg")
+}
+
+#testimonials .content-box {
+  background-color: rgba(0, 0, 0, 0.1);
 }
