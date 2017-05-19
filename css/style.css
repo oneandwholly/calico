@@ -243,3 +243,14 @@ h3 {
   padding-left: 0;
   padding-right: 0;
 }
+
+.img-wrapper {
+  overflow: hidden;
+}
+
+
+.img-wrapper img:hover {
+  transition: transform .5s ease;
+  transform: scale(1.5);
+  cursor: zoom-in;
+}

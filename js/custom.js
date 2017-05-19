@@ -6,3 +6,18 @@ $(function(){
   //animate on scroll
   new WOW().init();
 });
+
+/*==============================================================================
+                      WORK
+==============================================================================*/
+
+$(function(){
+  //magnific-popup
+  $("#work").magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    gallery: {
+      enabled: true
+    }
+  });
+});
