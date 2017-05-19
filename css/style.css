@@ -71,7 +71,7 @@ h3 {
                       PARALLAX (Generic)
 ==============================================================================*/
 
-.bg-parallx {
+.bg-parallax {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -112,6 +112,7 @@ h3 {
   color: #fff;
 }
 
+
 /*==============================================================================
                       ANIMATE
 ==============================================================================*/
@@ -131,6 +132,7 @@ h3 {
 #home-btn {
   animation-delay: 1s;
 }
+
 
 /*==============================================================================
                       CONTENT (Generic)
@@ -153,6 +155,7 @@ h3 {
   background-color: #34c6d3;
   margin: 0 auto 30px auto;
 }
+
 
 /*==============================================================================
                       SERVICES
@@ -190,9 +193,19 @@ h3 {
   padding-left: 85px;
 }
 
+
 /*==============================================================================
                       ABOUT
 ==============================================================================*/
+
+#about-bg-diagonal {
+  width: 60%;
+  height: 700px;
+  float: right;
+  background-image: url('../img/bg-about.jpg');
+  border-left: 200px solid white;
+  border-top: 700px solid transparent;
+}
 
 #about-content-box {
   float: left;
