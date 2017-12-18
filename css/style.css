@@ -626,3 +626,7 @@ form .form-control {
 .navbar-collapse {
   max-height: none !important;
 }
+
+.calico-top-nav ul.navbar-nav > li.active > a {
+  color: #34c6d3;
+}
