@@ -84,9 +84,11 @@ $(function(){
     if($(this).scrollTop() < 50) {
       // hide nav
       $("nav").removeClass("calico-top-nav");
+      $("#back-to-top").fadeOut();
     } else {
       // show nav
-      $("nav").addClass("calico-top-nav");      
+      $("nav").addClass("calico-top-nav");    
+      $("#back-to-top").fadeIn();      
     }
   });
 
